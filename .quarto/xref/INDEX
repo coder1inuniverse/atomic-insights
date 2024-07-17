@@ -4,5 +4,14 @@
   },
   "about.qmd": {
     "about.html": "62c2bff0"
+  },
+  "terms.qmd": {
+    "terms.html": "c6022848"
+  },
+  "blog.qmd": {
+    "blog.html": "95b40fea"
+  },
+  "posts/2024-07-17-unexpected-pump-activation.qmd": {
+    "2024-07-17-unexpected-pump-activation.html": "1e5d9b5c"
   }
 }
