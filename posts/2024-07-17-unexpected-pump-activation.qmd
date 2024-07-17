@@ -1,5 +1,5 @@
 ---
-title: "Nuclear Safety Alert: Unexpected Pump Activation Highlights Human Error Risks"
+title: "Unexpected Pump Activation Highlights Human Error Risks"
 description: "Learn how a simple operator oversight led to an unexpected safety system activation in a nuclear power plant, and discover key strategies to prevent similar incidents."
 author: "Atomic Insights Team"
 date: "2024-07-17"

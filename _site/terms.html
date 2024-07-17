@@ -108,14 +108,14 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -124,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
   
@@ -136,35 +136,119 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><input type="text" id="searchInput" onkeyup="searchGlossary()" placeholder="Search for terms..."> Glossary A Automatic Actuation Logic A system designed to initiate safety-related equipment operation without human intervention when specific conditions are met.</p>
-<p>C Cold Shutdown (MODE 5) A reactor operational mode where the coolant temperature is below 200°F (93°C) and the reactor is subcritical.</p>
-<p>D Decay Heat The heat produced by the radioactive decay of fission products after a nuclear reactor has been shut down.</p>
-<p>Decay Heat Closed Cycle Cooling Water Pump A pump that circulates cooling water to remove decay heat from a shutdown reactor.</p>
-<p>H HPI (High Pressure Injection) An emergency core cooling system that injects coolant into the reactor vessel under high pressure conditions.</p>
-<p>N Nuclear Power Plant A thermal power station that uses controlled nuclear fission to generate electricity.</p>
-<p>O Operator A trained professional responsible for monitoring and controlling nuclear reactor operations.</p>
-<p>R Refueling Outage A planned period during which a nuclear reactor is shut down for refueling and maintenance activities.</p>
-<p>S Safety Culture The core values and behaviors resulting from a collective commitment to emphasize safety over competing goals.</p>
-<p>Safety Pump A pump that is part of a nuclear power plant’s safety systems, designed to provide cooling in emergency situations.</p>
-<p>Self-checking A human performance tool used to focus an individual’s attention on the task at hand before taking action.</p>
-<p>STAR (Stop, Think, Act, Review) A self-check process used in nuclear operations to reduce human error.</p>
-<p>Surveillance Procedure A set of instructions for performing tests to verify the operability of safety-related equipment.</p>
+<p><input type="text" id="searchInput" placeholder="Search for terms..."></p>
+<div id="glossaryContent">
+<section id="a" class="level2">
+<h2 class="anchored" data-anchor-id="a">A</h2>
+<dl>
+<dt>Automatic Actuation Logic</dt>
+<dd>
+A system designed to initiate safety-related equipment operation without human intervention when specific conditions are met.
+</dd>
+</dl>
+</section>
+<section id="c" class="level2">
+<h2 class="anchored" data-anchor-id="c">C</h2>
+<dl>
+<dt>Cold Shutdown (MODE 5)</dt>
+<dd>
+A reactor operational mode where the coolant temperature is below 200°F (93°C) and the reactor is subcritical.
+</dd>
+</dl>
+</section>
+<section id="d" class="level2">
+<h2 class="anchored" data-anchor-id="d">D</h2>
+<dl>
+<dt>Decay Heat</dt>
+<dd>
+The heat produced by the radioactive decay of fission products after a nuclear reactor has been shut down.
+</dd>
+<dt>Decay Heat Closed Cycle Cooling Water Pump</dt>
+<dd>
+A pump that circulates cooling water to remove decay heat from a shutdown reactor.
+</dd>
+</dl>
+</section>
+<section id="h" class="level2">
+<h2 class="anchored" data-anchor-id="h">H</h2>
+<dl>
+<dt>HPI (High Pressure Injection)</dt>
+<dd>
+An emergency core cooling system that injects coolant into the reactor vessel under high pressure conditions.
+</dd>
+</dl>
+</section>
+<section id="n" class="level2">
+<h2 class="anchored" data-anchor-id="n">N</h2>
+<dl>
+<dt>Nuclear Power Plant</dt>
+<dd>
+A thermal power station that uses controlled nuclear fission to generate electricity.
+</dd>
+</dl>
+</section>
+<section id="o" class="level2">
+<h2 class="anchored" data-anchor-id="o">O</h2>
+<dl>
+<dt>Operator</dt>
+<dd>
+A trained professional responsible for monitoring and controlling nuclear reactor operations.
+</dd>
+</dl>
+</section>
+<section id="r" class="level2">
+<h2 class="anchored" data-anchor-id="r">R</h2>
+<dl>
+<dt>Refueling Outage</dt>
+<dd>
+A planned period during which a nuclear reactor is shut down for refueling and maintenance activities.
+</dd>
+</dl>
+</section>
+<section id="s" class="level2">
+<h2 class="anchored" data-anchor-id="s">S</h2>
+<dl>
+<dt>Safety Culture</dt>
+<dd>
+The core values and behaviors resulting from a collective commitment to emphasize safety over competing goals.
+</dd>
+<dt>Safety Pump</dt>
+<dd>
+A pump that is part of a nuclear power plant’s safety systems, designed to provide cooling in emergency situations.
+</dd>
+<dt>Self-checking</dt>
+<dd>
+A human performance tool used to focus an individual’s attention on the task at hand before taking action.
+</dd>
+<dt>STAR (Stop, Think, Act, Review)</dt>
+<dd>
+A self-check process used in nuclear operations to reduce human error.
+</dd>
+<dt>Surveillance Procedure</dt>
+<dd>
+A set of instructions for performing tests to verify the operability of safety-related equipment.
+</dd>
+</dl>
+</section>
+</div>
 <script>
 function searchGlossary() {
-    var input, filter, toc, entries, i, txtValue;
-    input = document.getElementById("searchInput");
-    filter = input.value.toUpperCase();
-    toc = document.getElementById("TOC");
-    entries = toc.getElementsByTagName("li");
-    for (i = 0; i < entries.length; i++) {
-        txtValue = entries[i].textContent || entries[i].innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            entries[i].style.display = "";
-        } else {
-            entries[i].style.display = "none";
-        }
+  var input, filter, dl, dt, i, txtValue;
+  input = document.getElementById("searchInput");
+  filter = input.value.toUpperCase();
+  dl = document.getElementById("glossaryContent").getElementsByTagName("dl");
+  for (i = 0; i < dl.length; i++) {
+    dt = dl[i].getElementsByTagName("dt")[0];
+    txtValue = dt.textContent || dt.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      dl[i].style.display = "";
+    } else {
+      dl[i].style.display = "none";
     }
+  }
 }
+
+document.getElementById("searchInput").addEventListener("keyup", searchGlossary);
 </script>
 
 

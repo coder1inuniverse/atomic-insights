@@ -1,76 +1,88 @@
 ---
 title: "Nuclear Terminology Glossary"
-page-layout: full
-toc: true
-toc-location: right
-search: true
+format:
+  html:
+    toc: true
+    toc-location: right
 ---
 
-```{=html}
-<input type="text" id="searchInput" onkeyup="searchGlossary()" placeholder="Search for terms...">
-Glossary
-A
+<input type="text" id="searchInput" placeholder="Search for terms...">
+
+<div id="glossaryContent">
+
+## A
+
 Automatic Actuation Logic
-A system designed to initiate safety-related equipment operation without human intervention when specific conditions are met.
+: A system designed to initiate safety-related equipment operation without human intervention when specific conditions are met.
 
-C
+## C
+
 Cold Shutdown (MODE 5)
-A reactor operational mode where the coolant temperature is below 200°F (93°C) and the reactor is subcritical.
+: A reactor operational mode where the coolant temperature is below 200°F (93°C) and the reactor is subcritical.
 
-D
+## D
+
 Decay Heat
-The heat produced by the radioactive decay of fission products after a nuclear reactor has been shut down.
+: The heat produced by the radioactive decay of fission products after a nuclear reactor has been shut down.
 
 Decay Heat Closed Cycle Cooling Water Pump
-A pump that circulates cooling water to remove decay heat from a shutdown reactor.
+: A pump that circulates cooling water to remove decay heat from a shutdown reactor.
 
-H
+## H
+
 HPI (High Pressure Injection)
-An emergency core cooling system that injects coolant into the reactor vessel under high pressure conditions.
+: An emergency core cooling system that injects coolant into the reactor vessel under high pressure conditions.
 
-N
+## N
+
 Nuclear Power Plant
-A thermal power station that uses controlled nuclear fission to generate electricity.
+: A thermal power station that uses controlled nuclear fission to generate electricity.
 
-O
+## O
+
 Operator
-A trained professional responsible for monitoring and controlling nuclear reactor operations.
+: A trained professional responsible for monitoring and controlling nuclear reactor operations.
 
-R
+## R
+
 Refueling Outage
-A planned period during which a nuclear reactor is shut down for refueling and maintenance activities.
+: A planned period during which a nuclear reactor is shut down for refueling and maintenance activities.
 
-S
+## S
+
 Safety Culture
-The core values and behaviors resulting from a collective commitment to emphasize safety over competing goals.
+: The core values and behaviors resulting from a collective commitment to emphasize safety over competing goals.
 
 Safety Pump
-A pump that is part of a nuclear power plant's safety systems, designed to provide cooling in emergency situations.
+: A pump that is part of a nuclear power plant's safety systems, designed to provide cooling in emergency situations.
 
 Self-checking
-A human performance tool used to focus an individual's attention on the task at hand before taking action.
+: A human performance tool used to focus an individual's attention on the task at hand before taking action.
 
 STAR (Stop, Think, Act, Review)
-A self-check process used in nuclear operations to reduce human error.
+: A self-check process used in nuclear operations to reduce human error.
 
 Surveillance Procedure
-A set of instructions for performing tests to verify the operability of safety-related equipment.
+: A set of instructions for performing tests to verify the operability of safety-related equipment.
+
+</div>
 
 <script>
 function searchGlossary() {
-    var input, filter, toc, entries, i, txtValue;
-    input = document.getElementById("searchInput");
-    filter = input.value.toUpperCase();
-    toc = document.getElementById("TOC");
-    entries = toc.getElementsByTagName("li");
-    for (i = 0; i < entries.length; i++) {
-        txtValue = entries[i].textContent || entries[i].innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            entries[i].style.display = "";
-        } else {
-            entries[i].style.display = "none";
-        }
+  var input, filter, dl, dt, i, txtValue;
+  input = document.getElementById("searchInput");
+  filter = input.value.toUpperCase();
+  dl = document.getElementById("glossaryContent").getElementsByTagName("dl");
+  for (i = 0; i < dl.length; i++) {
+    dt = dl[i].getElementsByTagName("dt")[0];
+    txtValue = dt.textContent || dt.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      dl[i].style.display = "";
+    } else {
+      dl[i].style.display = "none";
     }
+  }
 }
-</script>
 
+document.getElementById("searchInput").addEventListener("keyup", searchGlossary);
+</script>
