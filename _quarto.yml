@@ -11,6 +11,8 @@ website:
         text: Glossary
       - href: blog.qmd
         text: Blog
+      - href: about.qmd
+        text: About
 
 format:
   html:

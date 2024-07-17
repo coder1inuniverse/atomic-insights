@@ -1,12 +1,22 @@
 ---
-title: "Atomic Insights Website"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
+title: "Welcome to Atomic Insights"
 page-layout: full
-title-block-banner: true
 ---
+
+Atomic Insights is your go-to resource for nuclear technology and industry information. Our website offers:
+
+- In-depth articles on nuclear power and technology
+- A comprehensive glossary of nuclear terms
+- Regular blog posts on industry news and developments
+
+## Featured Content
+
+[Explore our Nuclear Terminology Glossary](terms.qmd)
+
+[Read our Latest Blog Posts](blog.qmd)
+
+## About Us
+
+Atomic Insights is dedicated to providing accurate, up-to-date information on nuclear technology. Our team of experts is committed to fostering understanding and discussion around nuclear energy and its applications.
+
+[Learn More About Us](about.qmd)
