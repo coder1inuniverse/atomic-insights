@@ -11,16 +11,16 @@ toc-depth: 3
 
 ## Key Takeaways
 
-- An operator's oversight triggered an unexpected safety pump activation during a routine test.
-- Root causes include inadequate self-checking and multiple control room distractions.
-- The incident emphasizes the critical importance of human factors in nuclear safety.
-- Improved procedures and strengthened safety culture can prevent similar events.
+-   An operator's oversight triggered an unexpected safety pump activation during a routine test.
+-   Root causes include inadequate self-checking and multiple control room distractions.
+-   The incident emphasizes the critical importance of human factors in nuclear safety.
+-   Improved procedures and strengthened safety culture can prevent similar events.
 
 ## What Happened? A Quick Overview
 
 On a quiet summer morning, Nuclear Power Plant B in Region A experienced an unexpected event. During a routine monthly test, a safety pump suddenly activated, catching the control room team off guard. How did this happen, and what can we learn from it?
 
-[IMAGE 1: Control Room Illustration]
+\[IMAGE 1: Control Room Illustration\]
 
 *Image prompt: Create a digital illustration of a modern nuclear power plant control room. Show multiple control panels with buttons, switches, and monitors. Include 2-3 operators in protective gear working at different stations. Use a cool color palette with blue and green hues to convey a sense of technology and safety.*
 
@@ -28,17 +28,17 @@ On a quiet summer morning, Nuclear Power Plant B in Region A experienced an unex
 
 ### Timeline of Events
 
-1. **Time**: 10:18 AM
-2. **Location**: Control room of Nuclear Power Plant B
-3. **Activity**: Monthly automatic actuation logic test
-4. **Unexpected Outcome**: Automatic start of a Decay Heat Closed Cycle Cooling Water Pump
+1.  **Time**: 10:18 AM
+2.  **Location**: Control room of Nuclear Power Plant B
+3.  **Activity**: Monthly automatic actuation logic test
+4.  **Unexpected Outcome**: Automatic start of a Decay Heat Closed Cycle Cooling Water Pump
 
 ### What Went Wrong?
 
 The root of the problem lay in a simple yet critical mistake. An operator placed the wrong switch in the "off" position. Specifically:
 
-- **Correct Action**: Turn off the HPI AUTO TEST GRP 3 switch
-- **Actual Action**: Turned off the "A" HPI AUTO TEST SELECT switch
+-   **Correct Action**: Turn off the HPI AUTO TEST GRP 3 switch
+-   **Actual Action**: Turned off the "A" HPI AUTO TEST SELECT switch
 
 This seemingly small error was enough to trigger the unexpected pump activation.
 
@@ -46,19 +46,19 @@ This seemingly small error was enough to trigger the unexpected pump activation.
 
 ### Root Causes Identified
 
-1. Inadequate self-checking during complex tasks
-2. Multiple distractions in the control room
-3. Overly complex test procedure (145 pages!)
-4. No formal pre-job briefing
-5. Lack of a dedicated procedure reader
-6. Failure to manage control room distractions
-7. Perceived time pressure at shift end
+1.  Inadequate self-checking during complex tasks
+2.  Multiple distractions in the control room
+3.  Overly complex test procedure (145 pages!)
+4.  No formal pre-job briefing
+5.  Lack of a dedicated procedure reader
+6.  Failure to manage control room distractions
+7.  Perceived time pressure at shift end
 
 ### The Human Factor: A Critical Element
 
 This incident shines a spotlight on the crucial role of human factors in nuclear safety. Even in highly automated environments, human decision-making and actions remain pivotal.
 
-[IMAGE 2: Human Factors Illustration]
+\[IMAGE 2: Human Factors Illustration\]
 
 *Image prompt: Create an infographic illustrating the 7 root causes listed above. Use icons to represent each cause, arranged in a circular layout. In the center, show a stylized human figure to emphasize the human factor. Use a warm color palette with orange and yellow tones to draw attention to these critical points.*
 
@@ -66,9 +66,9 @@ This incident shines a spotlight on the crucial role of human factors in nuclear
 
 Fortunately, the impact of this incident was minimal:
 
-- Only one pump activated unexpectedly
-- No systems or safety functions were compromised
-- No equipment damage occurred
+-   Only one pump activated unexpectedly
+-   No systems or safety functions were compromised
+-   No equipment damage occurred
 
 However, the potential for more serious consequences underscores the importance of addressing such incidents promptly and thoroughly.
 
@@ -76,19 +76,19 @@ However, the potential for more serious consequences underscores the importance 
 
 In response to this event, the plant implemented several key measures:
 
-1. Comprehensive discussion with shift personnel
-2. Renewed emphasis on the STAR principle (Stop, Think, Act, Review)
-3. Creation of a lessons-learned entry in the Operations Study Book
-4. Assignment of dedicated procedure readers for complex tests
+1.  Comprehensive discussion with shift personnel
+2.  Renewed emphasis on the STAR principle (Stop, Think, Act, Review)
+3.  Creation of a lessons-learned entry in the Operations Study Book
+4.  Assignment of dedicated procedure readers for complex tests
 
 ## Key Lessons for Nuclear Safety
 
 This incident offers valuable insights for the entire nuclear industry:
 
-1. **Self-checking is crucial**: Always verify actions before execution.
-2. **Manage the work environment**: Minimize distractions in critical areas.
-3. **Simplify complex procedures**: Break down lengthy processes into manageable steps.
-4. **Prioritize communication**: Ensure clear, effective teamwork at all times.
+1.  **Self-checking is crucial**: Always verify actions before execution.
+2.  **Manage the work environment**: Minimize distractions in critical areas.
+3.  **Simplify complex procedures**: Break down lengthy processes into manageable steps.
+4.  **Prioritize communication**: Ensure clear, effective teamwork at all times.
 
 ## Conclusion: Building a Stronger Safety Culture
 
