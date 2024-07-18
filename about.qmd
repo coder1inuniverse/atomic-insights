@@ -2,8 +2,32 @@
 title: "About"
 ---
 
-About this site
+![](images/profileprofile-01.webp){fig-align="center" width="80%"}
 
-```{r}
-1 + 1
-```
+**Hello, I'm a Plant Engineer Passionate About Nuclear Energy.**
+
+I leverage my engineering background and hands-on experience to share accurate and objective insights about nuclear power. My goal is to foster informed discussions and promote a safer, sustainable energy future.
+
+## Why Nuclear Power?
+
+Driven by a deep-rooted interest in nuclear energy, I aim to bridge the gap between technical knowledge and public understanding. Through this blog, I strive to:
+
+-   **Demystify:** Explain complex concepts in a clear and accessible way.
+-   **Inform:** Share unbiased analysis of nuclear incidents and safety measures.
+-   **Engage:** Create a space for meaningful discussions and knowledge exchange.
+
+### My Vision for This Blog
+
+I envision this platform as a trusted resource for those seeking reliable information about nuclear power. By fostering transparency and safety awareness, I believe we can build a more sustainable and secure energy future together.
+
+### Let's Connect
+
+I welcome your feedback and encourage you to join the conversation!
+
+-   Email: [nsc.imp.atom\@gmail.com](mailto:nsc.imp.atom@gmail.com)
+
+------------------------------------------------------------------------
+
+::: {style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #ccc; font-style: italic; color: #666;"}
+Coming Soon: <br> YouTube Channel \| GitHub Repository
+:::

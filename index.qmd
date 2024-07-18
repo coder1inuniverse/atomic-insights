@@ -3,20 +3,31 @@ title: "Welcome to Atomic Insights"
 page-layout: full
 ---
 
-Atomic Insights is your go-to resource for nuclear technology and industry information. Our website offers:
+![](images/main_pic.webp){fig-align="center" width="100%"}
 
-- In-depth articles on nuclear power and technology
-- A comprehensive glossary of nuclear terms
-- Regular blog posts on industry news and developments
+Atomic Insights is your premier resource for in-depth knowledge and analysis of nuclear technology and the nuclear power industry. Our mission is to provide accurate, objective, and accessible information to foster informed discussions about nuclear energy and its role in our sustainable future.
 
-## Featured Content
+## What We Offer
 
-[Explore our Nuclear Terminology Glossary](terms.qmd)
+-   **In-depth Articles**: Explore our [blog](blog.qmd) for the latest insights on nuclear technology, industry developments, and policy discussions.
+-   **Comprehensive Glossary**: Navigate the complex terminology of nuclear science with our [Nuclear Terminology Glossary](terms.qmd).
+-   **Expert Analysis**: Benefit from the perspective of a plant engineer with hands-on experience in the nuclear industry.
 
-[Read our Latest Blog Posts](blog.qmd)
+## Our Focus Areas
 
-## About Us
+-   Demystifying nuclear technology for the general public
+-   Analyzing current events and their impact on the nuclear industry
+-   Discussing safety measures and innovations in nuclear power
+-   Exploring the role of nuclear energy in combating climate change
 
-Atomic Insights is dedicated to providing accurate, up-to-date information on nuclear technology. Our team of experts is committed to fostering understanding and discussion around nuclear energy and its applications.
+## Join the Conversation
 
-[Learn More About Us](about.qmd)
+We believe that informed discussions are key to shaping the future of energy. Whether you're a industry professional, a student, or simply curious about nuclear power, we invite you to explore our content and engage in the conversation.
+
+[Read Our Latest Posts](blog.qmd){.btn .btn-primary} [Explore the Glossary](terms.qmd){.btn .btn-secondary}
+
+------------------------------------------------------------------------
+
+::: {style="text-align: center; margin-top: 30px; font-style: italic;"}
+"Powering the future through knowledge and insight."
+:::
