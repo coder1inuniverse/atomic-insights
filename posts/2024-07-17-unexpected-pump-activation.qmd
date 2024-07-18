@@ -4,7 +4,7 @@ description: "Learn how a simple operator oversight led to an unexpected safety 
 author: "Atomic Insights Team"
 date: "2024-07-17"
 categories: [Incident Report, Human Error, Safety Systems]
-image: "control-room.jpg"
+image: "images/Monticello_Training_Simulator-01.webp"
 toc: true
 toc-depth: 3
 ---
@@ -20,9 +20,7 @@ toc-depth: 3
 
 On a quiet summer morning, Nuclear Power Plant B in Region A experienced an unexpected event. During a routine monthly test, a safety pump suddenly activated, catching the control room team off guard. How did this happen, and what can we learn from it?
 
-\[IMAGE 1: Control Room Illustration\]
-
-*Image prompt: Create a digital illustration of a modern nuclear power plant control room. Show multiple control panels with buttons, switches, and monitors. Include 2-3 operators in protective gear working at different stations. Use a cool color palette with blue and green hues to convey a sense of technology and safety.*
+[![( Source: Wikimedia )](images/Monticello_Training_Simulator-01.webp){fig-align="center" width="99%"}](https://commons.wikimedia.org/wiki/File:Monticello_Training_Simulator.jpg)
 
 ## The Incident in Detail
 
