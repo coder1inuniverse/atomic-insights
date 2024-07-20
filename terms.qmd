@@ -2,87 +2,298 @@
 title: "Nuclear Terminology Glossary"
 format:
   html:
-    toc: true
-    toc-location: right
----
+    toc: false
+    include-in-header:
+      text: |
+        <style>
+        .term {
+          margin-bottom: 1em;
+        }
+        .term-title {
+          font-weight: bold;
+        }
+        .hidden {
+          display: none;
+        }
+        #searchInput {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 20px;
+          font-size: 16px;
+        }
+        </style>
+    include-after-body:
+      text: |
+        <script>
+        function searchGlossary() {
+          var input, filter, terms, i, txtValue;
+          input = document.getElementById("searchInput");
+          filter = input.value.toUpperCase();
+          terms = document.getElementsByClassName("term");
+          for (i = 0; i < terms.length; i++) {
+            txtValue = terms[i].textContent || terms[i].innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              terms[i].classList.remove("hidden");
+            } else {
+              terms[i].classList.add("hidden");
+            }
+          }
+        }
 
-<input type="text" id="searchInput" placeholder="Search for terms...">
+        document.addEventListener('DOMContentLoaded', function() {
+          var searchInput = document.createElement('input');
+          searchInput.type = 'text';
+          searchInput.id = 'searchInput';
+          searchInput.placeholder = 'Search for terms...';
+          searchInput.addEventListener('keyup', searchGlossary);
+          
+          var glossaryContent = document.getElementById('glossaryContent');
+          glossaryContent.parentNode.insertBefore(searchInput, glossaryContent);
+        });
+        </script>
+
+---
 
 <div id="glossaryContent">
 
-## A
+::: {.term}
+**Automatic Actuation Logic**
 
-Automatic Actuation Logic
-: A system designed to initiate safety-related equipment operation without human intervention when specific conditions are met.
+A system designed to initiate safety-related equipment operation without human intervention when specific conditions are met.
+:::
 
-## C
+::: {.term}
+**Bistables**
 
-Cold Shutdown (MODE 5)
-: A reactor operational mode where the coolant temperature is below 200°F (93°C) and the reactor is subcritical.
+Control devices that switch between on and off states.
+:::
 
-## D
+::: {.term}
+**Cold Shutdown (MODE 5)**
 
-Decay Heat
-: The heat produced by the radioactive decay of fission products after a nuclear reactor has been shut down.
+A reactor operational mode where the coolant temperature is below 200°F (93°C) and the reactor is subcritical.
+:::
 
-Decay Heat Closed Cycle Cooling Water Pump
-: A pump that circulates cooling water to remove decay heat from a shutdown reactor.
+::: {.term}
+**Condensate System**
 
-## H
+Recycles used steam back into water for reuse.
+:::
 
-HPI (High Pressure Injection)
-: An emergency core cooling system that injects coolant into the reactor vessel under high pressure conditions.
+::: {.term}
+**Control Board Instruments**
 
-## N
+Devices located in the control room of a power plant that are used to monitor and operate various equipment and systems.
+:::
 
-Nuclear Power Plant
-: A thermal power station that uses controlled nuclear fission to generate electricity.
+::: {.term}
+**Corrective Actions**
 
-## O
+Steps taken to fix problems and prevent them from happening again in the future.
+:::
 
-Operator
-: A trained professional responsible for monitoring and controlling nuclear reactor operations.
+::: {.term}
+**Coincidence Logic**
 
-## R
+System requiring multiple conditions to be met for an action, like shutting down the reactor.
+:::
 
-Refueling Outage
-: A planned period during which a nuclear reactor is shut down for refueling and maintenance activities.
+::: {.term}
+**Counseling and Training**
 
-## S
+Providing guidance and education to personnel, ensuring staff understand their tasks and the importance of following procedures accurately.
+:::
 
-Safety Culture
-: The core values and behaviors resulting from a collective commitment to emphasize safety over competing goals.
+::: {.term}
+**Decay Heat**
 
-Safety Pump
-: A pump that is part of a nuclear power plant's safety systems, designed to provide cooling in emergency situations.
+The heat produced by the radioactive decay of fission products after a nuclear reactor has been shut down.
+:::
 
-Self-checking
-: A human performance tool used to focus an individual's attention on the task at hand before taking action.
+::: {.term}
+**Decay Heat Closed Cycle Cooling Water Pump**
 
-STAR (Stop, Think, Act, Review)
-: A self-check process used in nuclear operations to reduce human error.
+A pump that circulates cooling water to remove decay heat from a shutdown reactor.
+:::
 
-Surveillance Procedure
-: A set of instructions for performing tests to verify the operability of safety-related equipment.
+::: {.term}
+**Data Verification Process**
+
+A procedure for checking and confirming that recorded data is accurate and reliable.
+:::
+
+::: {.term}
+**Deaerator**
+
+Removes gases from water to prevent corrosion in the reactor.
+:::
+
+::: {.term}
+**Emergency Diesel Generator (EDG)**
+
+A backup generator that provides power during a loss of external power, ensuring safety systems remain operational.
+:::
+
+::: {.term}
+**Emergency Safeguards (ES) Bus**
+
+A critical power supply system for essential safety equipment, providing electricity to important safety systems during an emergency.
+:::
+
+::: {.term}
+**HPI (High Pressure Injection)**
+
+An emergency core cooling system that injects coolant into the reactor vessel under high pressure conditions.
+:::
+
+::: {.term}
+**Human Factors Evaluation**
+
+An assessment that looks at how people interact with their work environment and tasks to identify potential errors and difficulties. This helps to improve procedures and reduce mistakes.
+:::
+
+::: {.term}
+**Inattention to Detail**
+
+Failing to notice important details during tasks, which can lead to mistakes compromising safety and efficiency.
+:::
+
+::: {.term}
+**Lock Out**
+
+A safety procedure that ensures a system remains off, preventing accidental activation during maintenance or testing.
+:::
+
+::: {.term}
+**Loss of Power Start Signal**
+
+A signal indicating that the main power has been lost and backup systems should start, triggering emergency systems like diesel generators.
+:::
+
+::: {.term}
+**Missed Readings**
+
+Instances where required measurements or data recordings were not taken at the specified time.
+:::
+
+::: {.term}
+**Neutron Detector Channels**
+
+Devices that measure neutron levels to monitor reactor behavior.
+:::
+
+::: {.term}
+**Offsite Power Transformer**
+
+A transformer that connects the plant to the external power grid, allowing the plant to receive and send power to the grid.
+:::
+
+::: {.term}
+**Operator**
+
+A trained professional responsible for monitoring and controlling nuclear reactor operations.
+:::
+
+::: {.term}
+**Operator Error**
+
+Mistakes made by the staff who operate the plant's equipment. This can include incorrect actions or failures to perform necessary actions.
+:::
+
+::: {.term}
+**Power Operated Relief Valves (PORVs)**
+
+Valves that release steam to control pressure.
+:::
+
+::: {.term}
+**Power Range Channels**
+
+Instruments that measure the reactor's power output.
+:::
+
+::: {.term}
+**Procedure Revision**
+
+Updating and improving the set instructions for operations, correcting errors, improving clarity, and enhancing safety measures.
+:::
+
+::: {.term}
+**Protection System**
+
+Automatically shuts down the reactor if problems are detected.
+:::
+
+::: {.term}
+**Reactor Coolant System**
+
+A system that removes heat from the reactor core and transfers it to the steam generators, ensuring the reactor stays at a safe temperature.
+:::
+
+::: {.term}
+**Reactor Trip**
+
+An automatic shutdown of the reactor to prevent accidents.
+:::
+
+::: {.term}
+**Refueling Outage**
+
+A planned period during which a nuclear reactor is shut down for refueling and maintenance activities.
+:::
+
+::: {.term}
+**Safety Pump**
+
+A pump that is part of a nuclear power plant's safety systems, designed to provide cooling in emergency situations.
+:::
+
+::: {.term}
+**Self-checking**
+
+A human performance tool used to focus an individual's attention on the task at hand before taking action.
+:::
+
+::: {.term}
+**Shift Supervisor**
+
+The person responsible for overseeing operations and staff during a specific work shift.
+:::
+
+::: {.term}
+**STAR (Stop, Think, Act, Review)**
+
+A self-check process used in nuclear operations to reduce human error.
+:::
+
+::: {.term}
+**Steam Generator**
+
+A device that heats water to produce steam. This steam is then used to turn turbines, which generate electricity.
+:::
+
+::: {.term}
+**Surveillance Procedure**
+
+A set of instructions for performing tests to verify the operability of safety-related equipment.
+:::
+
+::: {.term}
+**Technical Specification Surveillance Interval Limits**
+
+Required time intervals for performing safety checks.
+:::
+
+::: {.term}
+**Trip Block Switch**
+
+A switch that prevents certain safety systems from being triggered during testing, avoiding unintended activation during maintenance.
+:::
+
+::: {.term}
+**Undervoltage Condition**
+
+A situation where the voltage drops below the required level, triggering safety systems to prevent damage or unsafe conditions.
+:::
 
 </div>
-
-<script>
-function searchGlossary() {
-  var input, filter, dl, dt, i, txtValue;
-  input = document.getElementById("searchInput");
-  filter = input.value.toUpperCase();
-  dl = document.getElementById("glossaryContent").getElementsByTagName("dl");
-  for (i = 0; i < dl.length; i++) {
-    dt = dl[i].getElementsByTagName("dt")[0];
-    txtValue = dt.textContent || dt.innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      dl[i].style.display = "";
-    } else {
-      dl[i].style.display = "none";
-    }
-  }
-}
-
-document.getElementById("searchInput").addEventListener("keyup", searchGlossary);
-</script>

@@ -1,108 +1,73 @@
 [
   {
-    "objectID": "terms.html#a",
-    "href": "terms.html#a",
+    "objectID": "terms.html",
+    "href": "terms.html",
     "title": "Nuclear Terminology Glossary",
-    "section": "A",
-    "text": "A\n\nAutomatic Actuation Logic\n\nA system designed to initiate safety-related equipment operation without human intervention when specific conditions are met."
-  },
-  {
-    "objectID": "terms.html#c",
-    "href": "terms.html#c",
-    "title": "Nuclear Terminology Glossary",
-    "section": "C",
-    "text": "C\n\nCold Shutdown (MODE 5)\n\nA reactor operational mode where the coolant temperature is below 200°F (93°C) and the reactor is subcritical."
-  },
-  {
-    "objectID": "terms.html#d",
-    "href": "terms.html#d",
-    "title": "Nuclear Terminology Glossary",
-    "section": "D",
-    "text": "D\n\nDecay Heat\n\nThe heat produced by the radioactive decay of fission products after a nuclear reactor has been shut down.\n\nDecay Heat Closed Cycle Cooling Water Pump\n\nA pump that circulates cooling water to remove decay heat from a shutdown reactor."
-  },
-  {
-    "objectID": "terms.html#h",
-    "href": "terms.html#h",
-    "title": "Nuclear Terminology Glossary",
-    "section": "H",
-    "text": "H\n\nHPI (High Pressure Injection)\n\nAn emergency core cooling system that injects coolant into the reactor vessel under high pressure conditions."
-  },
-  {
-    "objectID": "terms.html#n",
-    "href": "terms.html#n",
-    "title": "Nuclear Terminology Glossary",
-    "section": "N",
-    "text": "N\n\nNuclear Power Plant\n\nA thermal power station that uses controlled nuclear fission to generate electricity."
-  },
-  {
-    "objectID": "terms.html#o",
-    "href": "terms.html#o",
-    "title": "Nuclear Terminology Glossary",
-    "section": "O",
-    "text": "O\n\nOperator\n\nA trained professional responsible for monitoring and controlling nuclear reactor operations."
-  },
-  {
-    "objectID": "terms.html#r",
-    "href": "terms.html#r",
-    "title": "Nuclear Terminology Glossary",
-    "section": "R",
-    "text": "R\n\nRefueling Outage\n\nA planned period during which a nuclear reactor is shut down for refueling and maintenance activities."
-  },
-  {
-    "objectID": "terms.html#s",
-    "href": "terms.html#s",
-    "title": "Nuclear Terminology Glossary",
-    "section": "S",
-    "text": "S\n\nSafety Culture\n\nThe core values and behaviors resulting from a collective commitment to emphasize safety over competing goals.\n\nSafety Pump\n\nA pump that is part of a nuclear power plant’s safety systems, designed to provide cooling in emergency situations.\n\nSelf-checking\n\nA human performance tool used to focus an individual’s attention on the task at hand before taking action.\n\nSTAR (Stop, Think, Act, Review)\n\nA self-check process used in nuclear operations to reduce human error.\n\nSurveillance Procedure\n\nA set of instructions for performing tests to verify the operability of safety-related equipment."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to Atomic Insights",
     "section": "",
-    "text": "Atomic Insights is your premier resource for in-depth knowledge and analysis of nuclear technology and the nuclear power industry. Our mission is to provide accurate, objective, and accessible information to foster informed discussions about nuclear energy and its role in our sustainable future."
+    "text": "Automatic Actuation Logic\nA system designed to initiate safety-related equipment operation without human intervention when specific conditions are met.\n\n\nBistables\nControl devices that switch between on and off states.\n\n\nCold Shutdown (MODE 5)\nA reactor operational mode where the coolant temperature is below 200°F (93°C) and the reactor is subcritical.\n\n\nCondensate System\nRecycles used steam back into water for reuse.\n\n\nControl Board Instruments\nDevices located in the control room of a power plant that are used to monitor and operate various equipment and systems.\n\n\nCorrective Actions\nSteps taken to fix problems and prevent them from happening again in the future.\n\n\nCoincidence Logic\nSystem requiring multiple conditions to be met for an action, like shutting down the reactor.\n\n\nCounseling and Training\nProviding guidance and education to personnel, ensuring staff understand their tasks and the importance of following procedures accurately.\n\n\nDecay Heat\nThe heat produced by the radioactive decay of fission products after a nuclear reactor has been shut down.\n\n\nDecay Heat Closed Cycle Cooling Water Pump\nA pump that circulates cooling water to remove decay heat from a shutdown reactor.\n\n\nData Verification Process\nA procedure for checking and confirming that recorded data is accurate and reliable.\n\n\nDeaerator\nRemoves gases from water to prevent corrosion in the reactor.\n\n\nEmergency Diesel Generator (EDG)\nA backup generator that provides power during a loss of external power, ensuring safety systems remain operational.\n\n\nEmergency Safeguards (ES) Bus\nA critical power supply system for essential safety equipment, providing electricity to important safety systems during an emergency.\n\n\nHPI (High Pressure Injection)\nAn emergency core cooling system that injects coolant into the reactor vessel under high pressure conditions.\n\n\nHuman Factors Evaluation\nAn assessment that looks at how people interact with their work environment and tasks to identify potential errors and difficulties. This helps to improve procedures and reduce mistakes.\n\n\nInattention to Detail\nFailing to notice important details during tasks, which can lead to mistakes compromising safety and efficiency.\n\n\nLock Out\nA safety procedure that ensures a system remains off, preventing accidental activation during maintenance or testing.\n\n\nLoss of Power Start Signal\nA signal indicating that the main power has been lost and backup systems should start, triggering emergency systems like diesel generators.\n\n\nMissed Readings\nInstances where required measurements or data recordings were not taken at the specified time.\n\n\nNeutron Detector Channels\nDevices that measure neutron levels to monitor reactor behavior.\n\n\nOffsite Power Transformer\nA transformer that connects the plant to the external power grid, allowing the plant to receive and send power to the grid.\n\n\nOperator\nA trained professional responsible for monitoring and controlling nuclear reactor operations.\n\n\nOperator Error\nMistakes made by the staff who operate the plant’s equipment. This can include incorrect actions or failures to perform necessary actions.\n\n\nPower Operated Relief Valves (PORVs)\nValves that release steam to control pressure.\n\n\nPower Range Channels\nInstruments that measure the reactor’s power output.\n\n\nProcedure Revision\nUpdating and improving the set instructions for operations, correcting errors, improving clarity, and enhancing safety measures.\n\n\nProtection System\nAutomatically shuts down the reactor if problems are detected.\n\n\nReactor Coolant System\nA system that removes heat from the reactor core and transfers it to the steam generators, ensuring the reactor stays at a safe temperature.\n\n\nReactor Trip\nAn automatic shutdown of the reactor to prevent accidents.\n\n\nRefueling Outage\nA planned period during which a nuclear reactor is shut down for refueling and maintenance activities.\n\n\nSafety Pump\nA pump that is part of a nuclear power plant’s safety systems, designed to provide cooling in emergency situations.\n\n\nSelf-checking\nA human performance tool used to focus an individual’s attention on the task at hand before taking action.\n\n\nShift Supervisor\nThe person responsible for overseeing operations and staff during a specific work shift.\n\n\nSTAR (Stop, Think, Act, Review)\nA self-check process used in nuclear operations to reduce human error.\n\n\nSteam Generator\nA device that heats water to produce steam. This steam is then used to turn turbines, which generate electricity.\n\n\nSurveillance Procedure\nA set of instructions for performing tests to verify the operability of safety-related equipment.\n\n\nTechnical Specification Surveillance Interval Limits\nRequired time intervals for performing safety checks.\n\n\nTrip Block Switch\nA switch that prevents certain safety systems from being triggered during testing, avoiding unintended activation during maintenance.\n\n\nUndervoltage Condition\nA situation where the voltage drops below the required level, triggering safety systems to prevent damage or unsafe conditions."
   },
   {
-    "objectID": "index.html#what-we-offer",
-    "href": "index.html#what-we-offer",
-    "title": "Welcome to Atomic Insights",
-    "section": "What We Offer",
-    "text": "What We Offer\n\nIn-depth Articles: Explore our blog for the latest insights on nuclear technology, industry developments, and policy discussions.\nComprehensive Glossary: Navigate the complex terminology of nuclear science with our Nuclear Terminology Glossary.\nExpert Analysis: Benefit from the perspective of a plant engineer with hands-on experience in the nuclear industry."
-  },
-  {
-    "objectID": "index.html#our-focus-areas",
-    "href": "index.html#our-focus-areas",
-    "title": "Welcome to Atomic Insights",
-    "section": "Our Focus Areas",
-    "text": "Our Focus Areas\n\nDemystifying nuclear technology for the general public\nAnalyzing current events and their impact on the nuclear industry\nDiscussing safety measures and innovations in nuclear power\nExploring the role of nuclear energy in combating climate change"
-  },
-  {
-    "objectID": "index.html#join-the-conversation",
-    "href": "index.html#join-the-conversation",
-    "title": "Welcome to Atomic Insights",
-    "section": "Join the Conversation",
-    "text": "Join the Conversation\nWe believe that informed discussions are key to shaping the future of energy. Whether you’re a industry professional, a student, or simply curious about nuclear power, we invite you to explore our content and engage in the conversation.\nRead Our Latest Posts Explore the Glossary\n\n\n“Powering the future through knowledge and insight.”"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "posts/2024-07-20-personnel-error-during-surveillance-testing.html",
+    "href": "posts/2024-07-20-personnel-error-during-surveillance-testing.html",
+    "title": "Personnel Error During Surveillance Testing Causes Loss of Emergency Safeguards Bus",
     "section": "",
-    "text": "Hello, I’m a Plant Engineer Passionate About Nuclear Energy.\nI leverage my engineering background and hands-on experience to share accurate and objective insights about nuclear power. My goal is to foster informed discussions and promote a safer, sustainable energy future."
+    "text": "A personnel error during surveillance testing caused the loss of an emergency safeguards bus.\nRoot causes include inattention to detail and inadequate communication during testing.\nThe incident underscores the importance of accurate procedures and thorough supervision in nuclear safety.\nImplementing improved procedures and labeling can prevent similar events."
   },
   {
-    "objectID": "about.html#why-nuclear-power",
-    "href": "about.html#why-nuclear-power",
-    "title": "About",
-    "section": "Why Nuclear Power?",
-    "text": "Why Nuclear Power?\nDriven by a deep-rooted interest in nuclear energy, I aim to bridge the gap between technical knowledge and public understanding. Through this blog, I strive to:\n\nDemystify: Explain complex concepts in a clear and accessible way.\nInform: Share unbiased analysis of nuclear incidents and safety measures.\nEngage: Create a space for meaningful discussions and knowledge exchange.\n\n\nMy Vision for This Blog\nI envision this platform as a trusted resource for those seeking reliable information about nuclear power. By fostering transparency and safety awareness, I believe we can build a more sustainable and secure energy future together.\n\n\nLet’s Connect\nI welcome your feedback and encourage you to join the conversation!\n\nEmail: nsc.imp.atom@gmail.com\n\n\n\nComing Soon:  YouTube Channel | GitHub Repository"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Atomic Insights Blog",
+    "objectID": "posts/2024-07-20-personnel-error-during-surveillance-testing.html#key-takeaways",
+    "href": "posts/2024-07-20-personnel-error-during-surveillance-testing.html#key-takeaways",
+    "title": "Personnel Error During Surveillance Testing Causes Loss of Emergency Safeguards Bus",
     "section": "",
-    "text": "Unexpected Pump Activation Highlights Human Error Risks\n\n\n\n\n\n\nIncident Report\n\n\nHuman Error\n\n\nSafety Systems\n\n\n\nLearn how a simple operator oversight led to an unexpected safety system activation in a nuclear power plant, and discover key strategies to prevent similar incidents.\n\n\n\n\n\nJul 17, 2024\n\n\nAtomic Insights Team\n\n\n\n\n\n\nNo matching items"
+    "text": "A personnel error during surveillance testing caused the loss of an emergency safeguards bus.\nRoot causes include inattention to detail and inadequate communication during testing.\nThe incident underscores the importance of accurate procedures and thorough supervision in nuclear safety.\nImplementing improved procedures and labeling can prevent similar events."
+  },
+  {
+    "objectID": "posts/2024-07-20-personnel-error-during-surveillance-testing.html#the-incident-a-timeline-of-events",
+    "href": "posts/2024-07-20-personnel-error-during-surveillance-testing.html#the-incident-a-timeline-of-events",
+    "title": "Personnel Error During Surveillance Testing Causes Loss of Emergency Safeguards Bus",
+    "section": "The Incident: A Timeline of Events",
+    "text": "The Incident: A Timeline of Events\nOn February 7, 1995, during the performance of a surveillance procedure at A Plant, a personnel error led to the loss of the “A” Emergency Safeguards (ES) bus. The reactor was operating at 100% power, generating 879 megawatts at the time of the incident.\nThe error occurred when a technician failed to position a “Trip Block” switch correctly. When the test pushbutton was pressed, an undervoltage condition was sensed, triggering an Emergency Diesel Generator (EDG) Loss of Power Start signal. This caused the “A” ES bus to strip and lock out the supply breakers. Fortunately, the associated EDG did not start since it was taken out of service for the surveillance."
+  },
+  {
+    "objectID": "posts/2024-07-20-personnel-error-during-surveillance-testing.html#what-was-missed",
+    "href": "posts/2024-07-20-personnel-error-during-surveillance-testing.html#what-was-missed",
+    "title": "Personnel Error During Surveillance Testing Causes Loss of Emergency Safeguards Bus",
+    "section": "What Was Missed?",
+    "text": "What Was Missed?\nThe personnel error resulted in several critical issues:\n\nLoss of Emergency Safeguards Bus: The “A” ES bus was de-energized, causing a temporary loss of power to critical systems.\nDelayed Power Restoration: It took nine minutes to restore power to the “A” ES bus from the offsite power transformer."
+  },
+  {
+    "objectID": "posts/2024-07-20-personnel-error-during-surveillance-testing.html#root-causes-unraveling-the-incident",
+    "href": "posts/2024-07-20-personnel-error-during-surveillance-testing.html#root-causes-unraveling-the-incident",
+    "title": "Personnel Error During Surveillance Testing Causes Loss of Emergency Safeguards Bus",
+    "section": "Root Causes: Unraveling the Incident",
+    "text": "Root Causes: Unraveling the Incident\nThe investigation revealed two primary causes:\n\nPersonnel Error: The technician’s inattention to detail led to the incorrect positioning of the “Trip Block” switch.\nInadequate Labeling and Communication: The switch identification was obscured by wiring, and there was a failure in communicating the completion of procedural steps."
+  },
+  {
+    "objectID": "posts/2024-07-20-personnel-error-during-surveillance-testing.html#assessing-the-impact-was-safety-compromised",
+    "href": "posts/2024-07-20-personnel-error-during-surveillance-testing.html#assessing-the-impact-was-safety-compromised",
+    "title": "Personnel Error During Surveillance Testing Causes Loss of Emergency Safeguards Bus",
+    "section": "Assessing the Impact: Was Safety Compromised?",
+    "text": "Assessing the Impact: Was Safety Compromised?\nDespite the loss of the “A” ES bus, the plant remained stable, with no significant changes in reactor coolant system pressure or temperature. The incident did not compromise public health and safety, but it highlighted procedural weaknesses."
+  },
+  {
+    "objectID": "posts/2024-07-20-personnel-error-during-surveillance-testing.html#corrective-actions-strengthening-procedures-and-supervision",
+    "href": "posts/2024-07-20-personnel-error-during-surveillance-testing.html#corrective-actions-strengthening-procedures-and-supervision",
+    "title": "Personnel Error During Surveillance Testing Causes Loss of Emergency Safeguards Bus",
+    "section": "Corrective Actions: Strengthening Procedures and Supervision",
+    "text": "Corrective Actions: Strengthening Procedures and Supervision\nIn response to this incident, the plant implemented several key measures:\n\nCounseling and Training: The maintenance crew was counseled, and the event was reviewed with all shop personnel to emphasize human error and event-free operations.\nProcedure Revision: The surveillance procedure was revised to enhance clarity and prevent recurrence.\nImproved Labeling: Labels were placed on the appropriate cabinet doors to ensure clear switch identification."
+  },
+  {
+    "objectID": "posts/2024-07-20-personnel-error-during-surveillance-testing.html#key-lessons-for-nuclear-operations",
+    "href": "posts/2024-07-20-personnel-error-during-surveillance-testing.html#key-lessons-for-nuclear-operations",
+    "title": "Personnel Error During Surveillance Testing Causes Loss of Emergency Safeguards Bus",
+    "section": "Key Lessons for Nuclear Operations",
+    "text": "Key Lessons for Nuclear Operations\nThis incident offers valuable insights for the nuclear industry:\n\nAttention to Detail: Even minor lapses in procedure can have significant impacts.\nThorough Supervision: Effective supervision and clear communication are essential for error prevention.\nProcedural Improvements: Regular evaluation and enhancement of procedures can help prevent future incidents."
+  },
+  {
+    "objectID": "posts/2024-07-20-personnel-error-during-surveillance-testing.html#conclusion-vigilance-in-every-detail",
+    "href": "posts/2024-07-20-personnel-error-during-surveillance-testing.html#conclusion-vigilance-in-every-detail",
+    "title": "Personnel Error During Surveillance Testing Causes Loss of Emergency Safeguards Bus",
+    "section": "Conclusion: Vigilance in Every Detail",
+    "text": "Conclusion: Vigilance in Every Detail\nWhile this incident did not result in immediate safety concerns, it serves as a powerful reminder of the importance of meticulous attention to detail in nuclear operations. From the technicians performing tasks to the supervisors overseeing procedures, every role is crucial in maintaining the highest standards of safety.\nAs we reflect on this event, let’s remember that in nuclear safety, there are no small oversights. Every step, every procedure, and every communication contributes to the overall safety of the plant and the surrounding community. By learning from incidents like this and continuously improving our processes, we can work towards a future of enhanced nuclear safety and reliability."
   },
   {
     "objectID": "posts/2024-07-17-unexpected-pump-activation.html",
@@ -166,5 +131,180 @@
     "title": "Unexpected Pump Activation Highlights Human Error Risks",
     "section": "Conclusion: Building a Stronger Safety Culture",
     "text": "Conclusion: Building a Stronger Safety Culture\nWhile this incident didn’t result in serious consequences, it serves as a vital reminder of the ongoing need for vigilance in nuclear operations. By focusing on human factors, improving procedures, and fostering a robust safety culture, we can work towards preventing similar incidents in the future.\nRemember, in nuclear safety, there’s no such thing as a small oversight. Every action, every decision matters. Let’s learn from this experience and continue to strengthen our commitment to nuclear safety."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Atomic Insights Blog",
+    "section": "",
+    "text": "Nuclear Plant Log Keeping Errors: A Lesson in Operational Vigilance\n\n\n\n\n\n\nIncident Report\n\n\nOperational Safety\n\n\nHuman Error\n\n\n\nExplore how log keeping errors at a nuclear power plant led to missed surveillance checks, and learn about the importance of accurate documentation and thorough supervision in nuclear safety.\n\n\n\n\n\nJul 20, 2024\n\n\nNuclear Safety Insights Team\n\n\n\n\n\n\n\n\n\n\n\n\nPersonnel Error During Surveillance Testing Causes Loss of Emergency Safeguards Bus\n\n\n\n\n\n\nIncident Report\n\n\nOperational Safety\n\n\nHuman Error\n\n\n\nExplore how a personnel error during surveillance testing at a nuclear power plant caused the loss of an emergency safeguards bus, highlighting the importance of attention to detail and accurate procedures.\n\n\n\n\n\nJul 20, 2024\n\n\nNuclear Safety Insights Team\n\n\n\n\n\n\n\n\n\n\n\n\nReactor Trip During Nuclear Instrument Surveillance: A Lesson in Operational Vigilance\n\n\n\n\n\n\nReactor Trip\n\n\nInstrument Surveillance\n\n\nHuman Error\n\n\n\nExplore how a reactor trip at a nuclear power plant was caused by personnel error during nuclear instrument surveillance, highlighting the importance of accurate procedures and supervision in nuclear safety.\n\n\n\n\n\nJul 20, 2024\n\n\nNuclear Safety Insights Team\n\n\n\n\n\n\n\n\n\n\n\n\nUnexpected Pump Activation Highlights Human Error Risks\n\n\n\n\n\n\nIncident Report\n\n\nHuman Error\n\n\nSafety Systems\n\n\n\nLearn how a simple operator oversight led to an unexpected safety system activation in a nuclear power plant, and discover key strategies to prevent similar incidents.\n\n\n\n\n\nJul 17, 2024\n\n\nAtomic Insights Team\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hello, I’m a Plant Engineer Passionate About Nuclear Energy.\nI leverage my engineering background and hands-on experience to share accurate and objective insights about nuclear power. My goal is to foster informed discussions and promote a safer, sustainable energy future."
+  },
+  {
+    "objectID": "about.html#why-nuclear-power",
+    "href": "about.html#why-nuclear-power",
+    "title": "About",
+    "section": "Why Nuclear Power?",
+    "text": "Why Nuclear Power?\nDriven by a deep-rooted interest in nuclear energy, I aim to bridge the gap between technical knowledge and public understanding. Through this blog, I strive to:\n\nDemystify: Explain complex concepts in a clear and accessible way.\nInform: Share unbiased analysis of nuclear incidents and safety measures.\nEngage: Create a space for meaningful discussions and knowledge exchange.\n\n\nMy Vision for This Blog\nI envision this platform as a trusted resource for those seeking reliable information about nuclear power. By fostering transparency and safety awareness, I believe we can build a more sustainable and secure energy future together.\n\n\nLet’s Connect\nI welcome your feedback and encourage you to join the conversation!\n\nEmail: nsc.imp.atom@gmail.com\n\n\n\nComing Soon:  YouTube Channel | GitHub Repository"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Atomic Insights",
+    "section": "",
+    "text": "Atomic Insights is your premier resource for in-depth knowledge and analysis of nuclear technology and the nuclear power industry. Our mission is to provide accurate, objective, and accessible information to foster informed discussions about nuclear energy and its role in our sustainable future."
+  },
+  {
+    "objectID": "index.html#what-we-offer",
+    "href": "index.html#what-we-offer",
+    "title": "Welcome to Atomic Insights",
+    "section": "What We Offer",
+    "text": "What We Offer\n\nIn-depth Articles: Explore our blog for the latest insights on nuclear technology, industry developments, and policy discussions.\nComprehensive Glossary: Navigate the complex terminology of nuclear science with our Nuclear Terminology Glossary.\nExpert Analysis: Benefit from the perspective of a plant engineer with hands-on experience in the nuclear industry."
+  },
+  {
+    "objectID": "index.html#our-focus-areas",
+    "href": "index.html#our-focus-areas",
+    "title": "Welcome to Atomic Insights",
+    "section": "Our Focus Areas",
+    "text": "Our Focus Areas\n\nDemystifying nuclear technology for the general public\nAnalyzing current events and their impact on the nuclear industry\nDiscussing safety measures and innovations in nuclear power\nExploring the role of nuclear energy in combating climate change"
+  },
+  {
+    "objectID": "index.html#join-the-conversation",
+    "href": "index.html#join-the-conversation",
+    "title": "Welcome to Atomic Insights",
+    "section": "Join the Conversation",
+    "text": "Join the Conversation\nWe believe that informed discussions are key to shaping the future of energy. Whether you’re a industry professional, a student, or simply curious about nuclear power, we invite you to explore our content and engage in the conversation.\nRead Our Latest Posts Explore the Glossary\n\n\n“Powering the future through knowledge and insight.”"
+  },
+  {
+    "objectID": "posts/2024-07-20-nuclear-plant-log-keeping-errors.html",
+    "href": "posts/2024-07-20-nuclear-plant-log-keeping-errors.html",
+    "title": "Nuclear Plant Log Keeping Errors: A Lesson in Operational Vigilance",
+    "section": "",
+    "text": "Log keeping errors resulted in missed surveillance checks for critical steam generator instruments.\nRoot causes include operator error and inadequate shift supervision review.\nThe incident highlights the crucial role of accurate documentation in nuclear safety.\nImproved procedures and strengthened supervisory practices can prevent similar events."
+  },
+  {
+    "objectID": "posts/2024-07-20-nuclear-plant-log-keeping-errors.html#key-takeaways",
+    "href": "posts/2024-07-20-nuclear-plant-log-keeping-errors.html#key-takeaways",
+    "title": "Nuclear Plant Log Keeping Errors: A Lesson in Operational Vigilance",
+    "section": "",
+    "text": "Log keeping errors resulted in missed surveillance checks for critical steam generator instruments.\nRoot causes include operator error and inadequate shift supervision review.\nThe incident highlights the crucial role of accurate documentation in nuclear safety.\nImproved procedures and strengthened supervisory practices can prevent similar events."
+  },
+  {
+    "objectID": "posts/2024-07-20-nuclear-plant-log-keeping-errors.html#the-incident-a-timeline-of-oversights",
+    "href": "posts/2024-07-20-nuclear-plant-log-keeping-errors.html#the-incident-a-timeline-of-oversights",
+    "title": "Nuclear Plant Log Keeping Errors: A Lesson in Operational Vigilance",
+    "section": "The Incident: A Timeline of Oversights",
+    "text": "The Incident: A Timeline of Oversights\nOn February 4, 1986, a nuclear power plant licensee made a concerning discovery. During a routine supervisory log review, it came to light that several critical instrument channel operability checks had been missed on January 29, 1986. This oversight led to exceeding technical specification surveillance interval limits for eight control board instruments."
+  },
+  {
+    "objectID": "posts/2024-07-20-nuclear-plant-log-keeping-errors.html#what-was-missed",
+    "href": "posts/2024-07-20-nuclear-plant-log-keeping-errors.html#what-was-missed",
+    "title": "Nuclear Plant Log Keeping Errors: A Lesson in Operational Vigilance",
+    "section": "What Was Missed?",
+    "text": "What Was Missed?\nThe missed readings affected crucial steam generator instruments:\n\n‘B’ and ‘C’ Steam Generator Pressure\n‘B’ and ‘C’ Steam Generator Water Level\n‘B’ and ‘C’ Feedwater Flow\n‘B’ and ‘C’ Steamline Pressure\n\nThese instrument checks are vital for ensuring the safe operation of the nuclear power plant, particularly in monitoring the condition of the steam generators."
+  },
+  {
+    "objectID": "posts/2024-07-20-nuclear-plant-log-keeping-errors.html#root-causes-unraveling-the-oversight",
+    "href": "posts/2024-07-20-nuclear-plant-log-keeping-errors.html#root-causes-unraveling-the-oversight",
+    "title": "Nuclear Plant Log Keeping Errors: A Lesson in Operational Vigilance",
+    "section": "Root Causes: Unraveling the Oversight",
+    "text": "Root Causes: Unraveling the Oversight\nThe investigation into this incident revealed two primary causes:\n\nOperator Error: Mistakes made during the process of taking and recording log readings.\nInadequate Supervision: Insufficient review of logs by shift supervisors.\n\nThese findings underscore the importance of both individual responsibility and effective oversight in maintaining nuclear safety standards."
+  },
+  {
+    "objectID": "posts/2024-07-20-nuclear-plant-log-keeping-errors.html#assessing-the-impact-was-safety-compromised",
+    "href": "posts/2024-07-20-nuclear-plant-log-keeping-errors.html#assessing-the-impact-was-safety-compromised",
+    "title": "Nuclear Plant Log Keeping Errors: A Lesson in Operational Vigilance",
+    "section": "Assessing the Impact: Was Safety Compromised?",
+    "text": "Assessing the Impact: Was Safety Compromised?\nUpon discovery of the missed readings, the licensee took immediate action:\n\nThey reviewed data recorded before and after the missed readings.\nThis review verified that the instrument channels had remained operable.\nAll instruments were found to be within technical specification tolerances.\n\nWhile this outcome is reassuring, it doesn’t diminish the seriousness of the oversight. In nuclear safety, vigilance is paramount, and any lapse in procedure can potentially lead to more severe consequences."
+  },
+  {
+    "objectID": "posts/2024-07-20-nuclear-plant-log-keeping-errors.html#corrective-actions-strengthening-the-safety-culture",
+    "href": "posts/2024-07-20-nuclear-plant-log-keeping-errors.html#corrective-actions-strengthening-the-safety-culture",
+    "title": "Nuclear Plant Log Keeping Errors: A Lesson in Operational Vigilance",
+    "section": "Corrective Actions: Strengthening the Safety Culture",
+    "text": "Corrective Actions: Strengthening the Safety Culture\nIn response to this incident, the plant implemented several key measures:\n\nCounseling for operators and shift supervision on the importance of accurate log keeping and thorough review.\nA management review board inquiry into the event.\nHuman factors evaluation of the operating logs to improve usability and reduce error potential.\nInvolvement of personnel involved in the event in developing corrective actions.\n\nThese steps demonstrate a commitment to learning from mistakes and actively improving safety procedures."
+  },
+  {
+    "objectID": "posts/2024-07-20-nuclear-plant-log-keeping-errors.html#key-lessons-for-nuclear-operations",
+    "href": "posts/2024-07-20-nuclear-plant-log-keeping-errors.html#key-lessons-for-nuclear-operations",
+    "title": "Nuclear Plant Log Keeping Errors: A Lesson in Operational Vigilance",
+    "section": "Key Lessons for Nuclear Operations",
+    "text": "Key Lessons for Nuclear Operations\nThis incident offers valuable insights for the entire nuclear industry:\n\nAccuracy is crucial: Even seemingly minor documentation errors can have significant implications.\nSupervision matters: Thorough review processes are essential for catching and correcting errors.\nContinuous improvement: Regular evaluation of procedures and logs can help prevent future oversights.\nInvolve the team: Engaging personnel in corrective actions can strengthen the overall safety culture."
+  },
+  {
+    "objectID": "posts/2024-07-20-nuclear-plant-log-keeping-errors.html#conclusion-vigilance-in-every-detail",
+    "href": "posts/2024-07-20-nuclear-plant-log-keeping-errors.html#conclusion-vigilance-in-every-detail",
+    "title": "Nuclear Plant Log Keeping Errors: A Lesson in Operational Vigilance",
+    "section": "Conclusion: Vigilance in Every Detail",
+    "text": "Conclusion: Vigilance in Every Detail\nWhile this incident didn’t result in any immediate safety concerns, it serves as a powerful reminder of the importance of meticulous attention to detail in nuclear operations. From the operators recording data to the supervisors reviewing logs, every role plays a crucial part in maintaining the highest standards of safety.\nAs we reflect on this event, let’s remember that in nuclear safety, there are no small oversights. Every log entry, every review, and every procedure contributes to the overall safety of the plant and the surrounding community. By learning from incidents like this and continuously improving our processes, we can work towards a future of enhanced nuclear safety and reliability."
+  },
+  {
+    "objectID": "posts/2024-07-20-reactor-trip-during-instrument-surveillance.html",
+    "href": "posts/2024-07-20-reactor-trip-during-instrument-surveillance.html",
+    "title": "Reactor Trip During Nuclear Instrument Surveillance: A Lesson in Operational Vigilance",
+    "section": "",
+    "text": "A reactor trip occurred due to personnel error during testing of neutron detector channels.\nRoot causes include inattention to detail by the technician and inadequate procedural safeguards.\nThe incident underscores the importance of accurate procedures and thorough supervision in nuclear safety.\nImplementing improved procedures and supervision can prevent similar events."
+  },
+  {
+    "objectID": "posts/2024-07-20-reactor-trip-during-instrument-surveillance.html#key-takeaways",
+    "href": "posts/2024-07-20-reactor-trip-during-instrument-surveillance.html#key-takeaways",
+    "title": "Reactor Trip During Nuclear Instrument Surveillance: A Lesson in Operational Vigilance",
+    "section": "",
+    "text": "A reactor trip occurred due to personnel error during testing of neutron detector channels.\nRoot causes include inattention to detail by the technician and inadequate procedural safeguards.\nThe incident underscores the importance of accurate procedures and thorough supervision in nuclear safety.\nImplementing improved procedures and supervision can prevent similar events."
+  },
+  {
+    "objectID": "posts/2024-07-20-reactor-trip-during-instrument-surveillance.html#the-incident-a-timeline-of-events",
+    "href": "posts/2024-07-20-reactor-trip-during-instrument-surveillance.html#the-incident-a-timeline-of-events",
+    "title": "Reactor Trip During Nuclear Instrument Surveillance: A Lesson in Operational Vigilance",
+    "section": "The Incident: A Timeline of Events",
+    "text": "The Incident: A Timeline of Events\nOn May 31, 1986, at approximately 10:26 AM, a reactor trip occurred at a nuclear power plant. The reactor was operating at 100% power when the trip was initiated due to personnel error during operational testing of the power range neutron detector channels.\nDuring a routine test of power range channel N-42, a technician inadvertently continued the test on channel N-41, which caused the reactor to trip as the protection system detected a false condition."
+  },
+  {
+    "objectID": "posts/2024-07-20-reactor-trip-during-instrument-surveillance.html#what-was-missed",
+    "href": "posts/2024-07-20-reactor-trip-during-instrument-surveillance.html#what-was-missed",
+    "title": "Reactor Trip During Nuclear Instrument Surveillance: A Lesson in Operational Vigilance",
+    "section": "What Was Missed?",
+    "text": "What Was Missed?\nThe reactor trip led to several critical issues:\n\nDamage to the Condensate System: A water hammer event caused by a transient in the condensate system resulted in damage, delaying reactor restart.\nUnmonitored Release: Steam release through secondary power operated relief valves (PORVs) due to steam generator tube leakage led to an unmonitored release to the atmosphere."
+  },
+  {
+    "objectID": "posts/2024-07-20-reactor-trip-during-instrument-surveillance.html#root-causes-unraveling-the-incident",
+    "href": "posts/2024-07-20-reactor-trip-during-instrument-surveillance.html#root-causes-unraveling-the-incident",
+    "title": "Reactor Trip During Nuclear Instrument Surveillance: A Lesson in Operational Vigilance",
+    "section": "Root Causes: Unraveling the Incident",
+    "text": "Root Causes: Unraveling the Incident\nThe investigation revealed two primary causes:\n\nPersonnel Error: The technician failed to follow the correct procedure, resulting in the reactor trip.\nInadequate Labeling and Procedures: Insufficient labeling of instrument drawers and inadequate test procedures contributed to the error."
+  },
+  {
+    "objectID": "posts/2024-07-20-reactor-trip-during-instrument-surveillance.html#assessing-the-impact-was-safety-compromised",
+    "href": "posts/2024-07-20-reactor-trip-during-instrument-surveillance.html#assessing-the-impact-was-safety-compromised",
+    "title": "Reactor Trip During Nuclear Instrument Surveillance: A Lesson in Operational Vigilance",
+    "section": "Assessing the Impact: Was Safety Compromised?",
+    "text": "Assessing the Impact: Was Safety Compromised?\nUpon the reactor trip, the plant’s response was normal, with all safety systems functioning as designed. However, subsequent issues included:\n\nCondensate System Damage: The water hammer event caused significant damage.\nUnmonitored Release: The release to the atmosphere, though a small fraction of allowable limits, highlighted procedural weaknesses."
+  },
+  {
+    "objectID": "posts/2024-07-20-reactor-trip-during-instrument-surveillance.html#corrective-actions-strengthening-procedures-and-supervision",
+    "href": "posts/2024-07-20-reactor-trip-during-instrument-surveillance.html#corrective-actions-strengthening-procedures-and-supervision",
+    "title": "Reactor Trip During Nuclear Instrument Surveillance: A Lesson in Operational Vigilance",
+    "section": "Corrective Actions: Strengthening Procedures and Supervision",
+    "text": "Corrective Actions: Strengthening Procedures and Supervision\nIn response to this incident, the plant implemented several key measures:\n\nCounseling and Training: Personnel involved were counseled and assigned to develop and present “Lessons Learned” training seminars.\nImproved Labeling: Instrument drawers were re-labeled to reduce confusion.\nHuman Factors Review: The test procedure underwent a human factors review to improve usability and reduce error potential.\nEngineering Modifications: Modifications to the condensate system were made to prevent future water hammer events."
+  },
+  {
+    "objectID": "posts/2024-07-20-reactor-trip-during-instrument-surveillance.html#key-lessons-for-nuclear-operations",
+    "href": "posts/2024-07-20-reactor-trip-during-instrument-surveillance.html#key-lessons-for-nuclear-operations",
+    "title": "Reactor Trip During Nuclear Instrument Surveillance: A Lesson in Operational Vigilance",
+    "section": "Key Lessons for Nuclear Operations",
+    "text": "Key Lessons for Nuclear Operations\nThis incident offers valuable insights for the nuclear industry:\n\nAttention to Detail: Even minor procedural lapses can have significant consequences.\nThorough Supervision: Effective supervision and review processes are essential for catching and correcting errors.\nProcedural Improvements: Regular evaluation and improvement of procedures can help prevent future incidents.\nTeam Involvement: Engaging personnel in developing corrective actions strengthens the overall safety culture."
+  },
+  {
+    "objectID": "posts/2024-07-20-reactor-trip-during-instrument-surveillance.html#conclusion-vigilance-in-every-detail",
+    "href": "posts/2024-07-20-reactor-trip-during-instrument-surveillance.html#conclusion-vigilance-in-every-detail",
+    "title": "Reactor Trip During Nuclear Instrument Surveillance: A Lesson in Operational Vigilance",
+    "section": "Conclusion: Vigilance in Every Detail",
+    "text": "Conclusion: Vigilance in Every Detail\nWhile this incident did not result in immediate safety concerns, it serves as a powerful reminder of the importance of meticulous attention to detail in nuclear operations. From the operators recording data to the supervisors reviewing logs, every role plays a crucial part in maintaining the highest standards of safety.\nAs we reflect on this event, let’s remember that in nuclear safety, there are no small oversights. Every log entry, every review, and every procedure contributes to the overall safety of the plant and the surrounding community. By learning from incidents like this and continuously improving our processes, we can work towards a future of enhanced nuclear safety and reliability."
   }
 ]

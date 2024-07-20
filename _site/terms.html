@@ -66,12 +66,29 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+.term {
+  margin-bottom: 1em;
+}
+.term-title {
+  font-weight: bold;
+}
+.hidden {
+  display: none;
+}
+#searchInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+</style>
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -115,9 +132,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -140,120 +155,168 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><input type="text" id="searchInput" placeholder="Search for terms..."></p>
 <div id="glossaryContent">
-<section id="a" class="level2">
-<h2 class="anchored" data-anchor-id="a">A</h2>
-<dl>
-<dt>Automatic Actuation Logic</dt>
-<dd>
-A system designed to initiate safety-related equipment operation without human intervention when specific conditions are met.
-</dd>
-</dl>
-</section>
-<section id="c" class="level2">
-<h2 class="anchored" data-anchor-id="c">C</h2>
-<dl>
-<dt>Cold Shutdown (MODE 5)</dt>
-<dd>
-A reactor operational mode where the coolant temperature is below 200°F (93°C) and the reactor is subcritical.
-</dd>
-</dl>
-</section>
-<section id="d" class="level2">
-<h2 class="anchored" data-anchor-id="d">D</h2>
-<dl>
-<dt>Decay Heat</dt>
-<dd>
-The heat produced by the radioactive decay of fission products after a nuclear reactor has been shut down.
-</dd>
-<dt>Decay Heat Closed Cycle Cooling Water Pump</dt>
-<dd>
-A pump that circulates cooling water to remove decay heat from a shutdown reactor.
-</dd>
-</dl>
-</section>
-<section id="h" class="level2">
-<h2 class="anchored" data-anchor-id="h">H</h2>
-<dl>
-<dt>HPI (High Pressure Injection)</dt>
-<dd>
-An emergency core cooling system that injects coolant into the reactor vessel under high pressure conditions.
-</dd>
-</dl>
-</section>
-<section id="n" class="level2">
-<h2 class="anchored" data-anchor-id="n">N</h2>
-<dl>
-<dt>Nuclear Power Plant</dt>
-<dd>
-A thermal power station that uses controlled nuclear fission to generate electricity.
-</dd>
-</dl>
-</section>
-<section id="o" class="level2">
-<h2 class="anchored" data-anchor-id="o">O</h2>
-<dl>
-<dt>Operator</dt>
-<dd>
-A trained professional responsible for monitoring and controlling nuclear reactor operations.
-</dd>
-</dl>
-</section>
-<section id="r" class="level2">
-<h2 class="anchored" data-anchor-id="r">R</h2>
-<dl>
-<dt>Refueling Outage</dt>
-<dd>
-A planned period during which a nuclear reactor is shut down for refueling and maintenance activities.
-</dd>
-</dl>
-</section>
-<section id="s" class="level2">
-<h2 class="anchored" data-anchor-id="s">S</h2>
-<dl>
-<dt>Safety Culture</dt>
-<dd>
-The core values and behaviors resulting from a collective commitment to emphasize safety over competing goals.
-</dd>
-<dt>Safety Pump</dt>
-<dd>
-A pump that is part of a nuclear power plant’s safety systems, designed to provide cooling in emergency situations.
-</dd>
-<dt>Self-checking</dt>
-<dd>
-A human performance tool used to focus an individual’s attention on the task at hand before taking action.
-</dd>
-<dt>STAR (Stop, Think, Act, Review)</dt>
-<dd>
-A self-check process used in nuclear operations to reduce human error.
-</dd>
-<dt>Surveillance Procedure</dt>
-<dd>
-A set of instructions for performing tests to verify the operability of safety-related equipment.
-</dd>
-</dl>
-</section>
+<div class="term">
+<p><strong>Automatic Actuation Logic</strong></p>
+<p>A system designed to initiate safety-related equipment operation without human intervention when specific conditions are met.</p>
 </div>
-<script>
-function searchGlossary() {
-  var input, filter, dl, dt, i, txtValue;
-  input = document.getElementById("searchInput");
-  filter = input.value.toUpperCase();
-  dl = document.getElementById("glossaryContent").getElementsByTagName("dl");
-  for (i = 0; i < dl.length; i++) {
-    dt = dl[i].getElementsByTagName("dt")[0];
-    txtValue = dt.textContent || dt.innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      dl[i].style.display = "";
-    } else {
-      dl[i].style.display = "none";
-    }
-  }
-}
-
-document.getElementById("searchInput").addEventListener("keyup", searchGlossary);
-</script>
+<div class="term">
+<p><strong>Bistables</strong></p>
+<p>Control devices that switch between on and off states.</p>
+</div>
+<div class="term">
+<p><strong>Cold Shutdown (MODE 5)</strong></p>
+<p>A reactor operational mode where the coolant temperature is below 200°F (93°C) and the reactor is subcritical.</p>
+</div>
+<div class="term">
+<p><strong>Condensate System</strong></p>
+<p>Recycles used steam back into water for reuse.</p>
+</div>
+<div class="term">
+<p><strong>Control Board Instruments</strong></p>
+<p>Devices located in the control room of a power plant that are used to monitor and operate various equipment and systems.</p>
+</div>
+<div class="term">
+<p><strong>Corrective Actions</strong></p>
+<p>Steps taken to fix problems and prevent them from happening again in the future.</p>
+</div>
+<div class="term">
+<p><strong>Coincidence Logic</strong></p>
+<p>System requiring multiple conditions to be met for an action, like shutting down the reactor.</p>
+</div>
+<div class="term">
+<p><strong>Counseling and Training</strong></p>
+<p>Providing guidance and education to personnel, ensuring staff understand their tasks and the importance of following procedures accurately.</p>
+</div>
+<div class="term">
+<p><strong>Decay Heat</strong></p>
+<p>The heat produced by the radioactive decay of fission products after a nuclear reactor has been shut down.</p>
+</div>
+<div class="term">
+<p><strong>Decay Heat Closed Cycle Cooling Water Pump</strong></p>
+<p>A pump that circulates cooling water to remove decay heat from a shutdown reactor.</p>
+</div>
+<div class="term">
+<p><strong>Data Verification Process</strong></p>
+<p>A procedure for checking and confirming that recorded data is accurate and reliable.</p>
+</div>
+<div class="term">
+<p><strong>Deaerator</strong></p>
+<p>Removes gases from water to prevent corrosion in the reactor.</p>
+</div>
+<div class="term">
+<p><strong>Emergency Diesel Generator (EDG)</strong></p>
+<p>A backup generator that provides power during a loss of external power, ensuring safety systems remain operational.</p>
+</div>
+<div class="term">
+<p><strong>Emergency Safeguards (ES) Bus</strong></p>
+<p>A critical power supply system for essential safety equipment, providing electricity to important safety systems during an emergency.</p>
+</div>
+<div class="term">
+<p><strong>HPI (High Pressure Injection)</strong></p>
+<p>An emergency core cooling system that injects coolant into the reactor vessel under high pressure conditions.</p>
+</div>
+<div class="term">
+<p><strong>Human Factors Evaluation</strong></p>
+<p>An assessment that looks at how people interact with their work environment and tasks to identify potential errors and difficulties. This helps to improve procedures and reduce mistakes.</p>
+</div>
+<div class="term">
+<p><strong>Inattention to Detail</strong></p>
+<p>Failing to notice important details during tasks, which can lead to mistakes compromising safety and efficiency.</p>
+</div>
+<div class="term">
+<p><strong>Lock Out</strong></p>
+<p>A safety procedure that ensures a system remains off, preventing accidental activation during maintenance or testing.</p>
+</div>
+<div class="term">
+<p><strong>Loss of Power Start Signal</strong></p>
+<p>A signal indicating that the main power has been lost and backup systems should start, triggering emergency systems like diesel generators.</p>
+</div>
+<div class="term">
+<p><strong>Missed Readings</strong></p>
+<p>Instances where required measurements or data recordings were not taken at the specified time.</p>
+</div>
+<div class="term">
+<p><strong>Neutron Detector Channels</strong></p>
+<p>Devices that measure neutron levels to monitor reactor behavior.</p>
+</div>
+<div class="term">
+<p><strong>Offsite Power Transformer</strong></p>
+<p>A transformer that connects the plant to the external power grid, allowing the plant to receive and send power to the grid.</p>
+</div>
+<div class="term">
+<p><strong>Operator</strong></p>
+<p>A trained professional responsible for monitoring and controlling nuclear reactor operations.</p>
+</div>
+<div class="term">
+<p><strong>Operator Error</strong></p>
+<p>Mistakes made by the staff who operate the plant’s equipment. This can include incorrect actions or failures to perform necessary actions.</p>
+</div>
+<div class="term">
+<p><strong>Power Operated Relief Valves (PORVs)</strong></p>
+<p>Valves that release steam to control pressure.</p>
+</div>
+<div class="term">
+<p><strong>Power Range Channels</strong></p>
+<p>Instruments that measure the reactor’s power output.</p>
+</div>
+<div class="term">
+<p><strong>Procedure Revision</strong></p>
+<p>Updating and improving the set instructions for operations, correcting errors, improving clarity, and enhancing safety measures.</p>
+</div>
+<div class="term">
+<p><strong>Protection System</strong></p>
+<p>Automatically shuts down the reactor if problems are detected.</p>
+</div>
+<div class="term">
+<p><strong>Reactor Coolant System</strong></p>
+<p>A system that removes heat from the reactor core and transfers it to the steam generators, ensuring the reactor stays at a safe temperature.</p>
+</div>
+<div class="term">
+<p><strong>Reactor Trip</strong></p>
+<p>An automatic shutdown of the reactor to prevent accidents.</p>
+</div>
+<div class="term">
+<p><strong>Refueling Outage</strong></p>
+<p>A planned period during which a nuclear reactor is shut down for refueling and maintenance activities.</p>
+</div>
+<div class="term">
+<p><strong>Safety Pump</strong></p>
+<p>A pump that is part of a nuclear power plant’s safety systems, designed to provide cooling in emergency situations.</p>
+</div>
+<div class="term">
+<p><strong>Self-checking</strong></p>
+<p>A human performance tool used to focus an individual’s attention on the task at hand before taking action.</p>
+</div>
+<div class="term">
+<p><strong>Shift Supervisor</strong></p>
+<p>The person responsible for overseeing operations and staff during a specific work shift.</p>
+</div>
+<div class="term">
+<p><strong>STAR (Stop, Think, Act, Review)</strong></p>
+<p>A self-check process used in nuclear operations to reduce human error.</p>
+</div>
+<div class="term">
+<p><strong>Steam Generator</strong></p>
+<p>A device that heats water to produce steam. This steam is then used to turn turbines, which generate electricity.</p>
+</div>
+<div class="term">
+<p><strong>Surveillance Procedure</strong></p>
+<p>A set of instructions for performing tests to verify the operability of safety-related equipment.</p>
+</div>
+<div class="term">
+<p><strong>Technical Specification Surveillance Interval Limits</strong></p>
+<p>Required time intervals for performing safety checks.</p>
+</div>
+<div class="term">
+<p><strong>Trip Block Switch</strong></p>
+<p>A switch that prevents certain safety systems from being triggered during testing, avoiding unintended activation during maintenance.</p>
+</div>
+<div class="term">
+<p><strong>Undervoltage Condition</strong></p>
+<p>A situation where the voltage drops below the required level, triggering safety systems to prevent damage or unsafe conditions.</p>
+</div>
+</div>
 
 
 
@@ -646,6 +709,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>
+function searchGlossary() {
+  var input, filter, terms, i, txtValue;
+  input = document.getElementById("searchInput");
+  filter = input.value.toUpperCase();
+  terms = document.getElementsByClassName("term");
+  for (i = 0; i < terms.length; i++) {
+    txtValue = terms[i].textContent || terms[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      terms[i].classList.remove("hidden");
+    } else {
+      terms[i].classList.add("hidden");
+    }
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  var searchInput = document.createElement('input');
+  searchInput.type = 'text';
+  searchInput.id = 'searchInput';
+  searchInput.placeholder = 'Search for terms...';
+  searchInput.addEventListener('keyup', searchGlossary);
+
+  var glossaryContent = document.getElementById('glossaryContent');
+  glossaryContent.parentNode.insertBefore(searchInput, glossaryContent);
+});
+</script>
 
 
 

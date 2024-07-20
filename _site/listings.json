@@ -2,6 +2,9 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/2024-07-20-nuclear-plant-log-keeping-errors.html",
+      "/posts/2024-07-20-personnel-error-during-surveillance-testing.html",
+      "/posts/2024-07-20-reactor-trip-during-instrument-surveillance.html",
       "/posts/2024-07-17-unexpected-pump-activation.html"
     ]
   }

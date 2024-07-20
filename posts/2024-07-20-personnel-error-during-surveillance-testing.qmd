@@ -1,0 +1,63 @@
+---
+title: "Personnel Error During Surveillance Testing Causes Loss of Emergency Safeguards Bus"
+description: "Explore how a personnel error during surveillance testing at a nuclear power plant caused the loss of an emergency safeguards bus, highlighting the importance of attention to detail and accurate procedures."
+author: "Nuclear Safety Insights Team"
+date: "2024-07-20"
+categories: [Incident Report, Operational Safety, Human Error]
+toc: true
+toc-depth: 3
+---
+
+## Key Takeaways
+
+- A personnel error during surveillance testing caused the loss of an emergency safeguards bus.
+- Root causes include inattention to detail and inadequate communication during testing.
+- The incident underscores the importance of accurate procedures and thorough supervision in nuclear safety.
+- Implementing improved procedures and labeling can prevent similar events.
+
+## The Incident: A Timeline of Events
+
+On February 7, 1995, during the performance of a surveillance procedure at A Plant, a personnel error led to the loss of the "A" Emergency Safeguards (ES) bus. The reactor was operating at 100% power, generating 879 megawatts at the time of the incident.
+
+The error occurred when a technician failed to position a "Trip Block" switch correctly. When the test pushbutton was pressed, an undervoltage condition was sensed, triggering an Emergency Diesel Generator (EDG) Loss of Power Start signal. This caused the "A" ES bus to strip and lock out the supply breakers. Fortunately, the associated EDG did not start since it was taken out of service for the surveillance.
+
+## What Was Missed?
+
+The personnel error resulted in several critical issues:
+
+1. **Loss of Emergency Safeguards Bus**: The "A" ES bus was de-energized, causing a temporary loss of power to critical systems.
+2. **Delayed Power Restoration**: It took nine minutes to restore power to the "A" ES bus from the offsite power transformer.
+
+## Root Causes: Unraveling the Incident
+
+The investigation revealed two primary causes:
+
+1. **Personnel Error**: The technician's inattention to detail led to the incorrect positioning of the "Trip Block" switch.
+2. **Inadequate Labeling and Communication**: The switch identification was obscured by wiring, and there was a failure in communicating the completion of procedural steps.
+
+## Assessing the Impact: Was Safety Compromised?
+
+Despite the loss of the "A" ES bus, the plant remained stable, with no significant changes in reactor coolant system pressure or temperature. The incident did not compromise public health and safety, but it highlighted procedural weaknesses.
+
+
+## Corrective Actions: Strengthening Procedures and Supervision
+
+In response to this incident, the plant implemented several key measures:
+
+1. **Counseling and Training**: The maintenance crew was counseled, and the event was reviewed with all shop personnel to emphasize human error and event-free operations.
+2. **Procedure Revision**: The surveillance procedure was revised to enhance clarity and prevent recurrence.
+3. **Improved Labeling**: Labels were placed on the appropriate cabinet doors to ensure clear switch identification.
+
+## Key Lessons for Nuclear Operations
+
+This incident offers valuable insights for the nuclear industry:
+
+1. **Attention to Detail**: Even minor lapses in procedure can have significant impacts.
+2. **Thorough Supervision**: Effective supervision and clear communication are essential for error prevention.
+3. **Procedural Improvements**: Regular evaluation and enhancement of procedures can help prevent future incidents.
+
+## Conclusion: Vigilance in Every Detail
+
+While this incident did not result in immediate safety concerns, it serves as a powerful reminder of the importance of meticulous attention to detail in nuclear operations. From the technicians performing tasks to the supervisors overseeing procedures, every role is crucial in maintaining the highest standards of safety.
+
+As we reflect on this event, let's remember that in nuclear safety, there are no small oversights. Every step, every procedure, and every communication contributes to the overall safety of the plant and the surrounding community. By learning from incidents like this and continuously improving our processes, we can work towards a future of enhanced nuclear safety and reliability.
